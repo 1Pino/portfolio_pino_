@@ -1,0 +1,72 @@
+@font-face {
+    font-family:Mono ;
+    src: url(../fonts/monomergeVF.ttf);
+}
+
+
+
+
+
+
+@font-face {
+    font-family:Entofont ;
+    src: url(../fonts/Entofont-Regular.otf);  
+}
+@font-face {
+    font-family:Greenhound ;
+    src: url(../fonts/GreenHound-Regular.otf);
+}
+@font-face {
+    font-family:Missverständnis ;
+    src: url(../fonts/Missverständnis-Regular.otf);
+}
+
+
+
+@font-face {
+    font-family:virus-blur1 ;
+    src: url(../fonts/Virus/Virus-blur1.otf);
+}
+@font-face {
+    font-family:virus-blur2 ;
+    src: url(../fonts/Virus/Virus-blur2.otf);
+}
+@font-face {
+    font-family:virus-blur3 ;
+    src: url(../fonts/Virus/Virus-blur3.otf);
+}
+@font-face {
+    font-family:virus-schwung;
+    src: url(../fonts/Virus/Virus-schwung.otf);
+}
+@font-face {
+    font-family:virus-schwung2 ;
+    src: url(../fonts/Virus/Virus-schwung2.otf);
+}
+@font-face {
+    font-family:virus-fett ;
+    src: url(../fonts/Virus/Virus-fett.otf);
+}
+@font-face {
+    font-family:Sandvoss ;
+    src: url(../fonts/Sandvoss-Regular.otf);
+}
+@font-face {
+    font-family:EckeKante ;
+    src: url(../fonts/EckeKantevariable2VF.ttf);
+    font-variation-settings: var(--weight);
+}
+@font-face {
+    font-family:DigitalUhr ;
+    src: url(../fonts/DigitalUhr5VF.ttf);
+    font-variation-settings: var(--weight);
+}
+@font-face {
+    font-family:Quadratur ;
+    src: url(../fonts/QuadraturFINALVF.ttf);
+    font-variation-settings: 
+    var(--weight),
+     var(--SERF);
+}
+
+

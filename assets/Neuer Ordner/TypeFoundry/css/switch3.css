@@ -1,0 +1,306 @@
+
+
+.Entofont{
+    font-family:Entofont ;
+}
+.Greenhound{
+    font-family:Greenhound ;
+}
+.Missverständnis{
+    font-family:Missverständnis ;
+}
+
+.blur1{
+
+    font-family:virus-blur1 ;
+
+}
+.blur2{
+    font-family:virus-blur2 ;
+
+}
+.blur3{
+    font-family:virus-blur3 ;
+
+}
+.schwung{
+    font-family:virus-schwung;
+
+}
+.schwung2{
+    font-family:virus-schwung2 ;
+
+}
+.fett{
+    font-family:virus-fett ;
+
+}
+.Sandvoss{
+    font-family:Sandvoss ;
+
+}
+.EckeKante{
+    font-family:EckeKante ;
+}
+.Digitaluhr{
+    font-family:DigitalUhr ;
+}
+.Quadratur{
+    font-family:Quadratur ;
+}
+
+
+
+
+
+
+
+
+
+body {
+        font-family:Mono ;
+   color: rgb(0, 0, 0);
+    /* background-color: rgba(255, 255, 255, 0.229); */
+    margin: 0px;
+      transition: all 1s;
+      background-image: url('../assets/bilder/would-you-say-frutiger-aero-is-kinda-creepy-or-unsettling-v0-ua9mnv0nilje1.webp');
+        width: 100%;
+        height: 50%;
+        overflow:hidden;
+  background-size: contain;
+    scroll-behavior:smooth;
+}
+.font-container-group {
+    height:672px;
+    width: 100%;
+    overflow:scroll;
+}
+
+h1 {
+    font-size: 100px;
+     font-family:Mono ;
+    margin: 0;
+    font-variation-settings: 'wdth' 800;
+    animation: variabel 3s infinite alternate-reverse ease;
+    color:#ffffff;
+    text-shadow:rgba(0, 0, 0, 0.747) 0 0 10px;
+    
+  
+}
+@keyframes variabel {
+    0% { font-variation-settings: 'wdth' 400; 
+        color:#ffffff00}
+
+    100% { font-variation-settings: 'wdth' 600; 
+        color:rgb(255, 255, 255)}
+    
+}
+
+
+
+h2 {
+    font-size: 50px;
+    margin: 0;
+     font-family:Mono ;
+   
+}
+
+
+
+.button1 {
+  position:relative;
+  top:0%;
+  left:5%;
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  background: rgba(255, 255, 255, 0);
+  border:#ffffff 0px solid;
+  text-decoration: none;
+  /* -webkit-text-stroke: #ffffff 0.5px; */
+  font-family: inherit;
+  font-size:30px ;
+  border-radius: 0rem;
+  transition: all 0.5s;
+}
+
+.button1:hover {
+  background: blue;
+  color: rgba(255, 255, 255, 0.229);
+}
+.button1:active {
+  background: rgba(255, 255, 255, 0.229);
+  color: blue;
+}
+
+/* SLIDER */
+.slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 1px;
+  background: #b6b6b6;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 16px;
+  height: 16px;
+  background: blue;
+  border-radius: 50%;
+}
+
+/* Thumb – Firefox */
+.slider::-moz-range-thumb {
+  width: 16px;
+  height: 16px;
+  background: black;
+  border-radius: 50%;
+}
+
+
+
+
+
+/* Downloadbutton */
+.download-font {
+  display: inline-block;
+  padding: 0rem 0.5rem;
+  background: rgb(255, 255, 255);
+  color: blue;
+  text-decoration: none;
+  font-family: inherit;
+  border-radius: 0rem;
+}
+
+.download-font:hover {
+  background: blue;
+  color: rgba(255, 255, 255, 0.229);
+}
+.download-font:active {
+  background: rgba(255, 255, 255, 0.229);
+  color: blue;
+}
+
+
+
+
+
+.uberschrift {
+     font-family:Mono ;
+    text-align: center; 
+   
+      background-color:rgba(255, 255, 255, 0);
+       
+         
+       /* border-color: #7a7a7a;
+    border-width: 5px 3px 5px 3px;
+    border-style: solid; */
+}
+
+
+.Family {
+     font-family:Mono ;
+font-variation-settings: 'wdth' 600;
+width:80%;
+left:5%;
+margin-top: 30px;
+position: relative; 
+color: rgb(255, 255, 255);
+ text-shadow:rgba(0, 0, 0, 0.747) 0 0 10px;
+
+}
+
+
+.container {
+    position: relative;
+    left: 5%;
+    margin: 10%;
+    width: 90%;
+    border-radius: 30px;
+    margin: 0 ;
+    background-color: rgba(255, 255, 255, 0.229);
+    border: 2px solid rgba(255, 255, 255, 0.229);
+    border-left: 4px solid rgba(255, 255, 255, 0.229);
+    border-right: 4px solid rgba(255, 255, 255, 0.229);
+    box-sizing: border-box;
+    overflow: hidden;
+    box-shadow: 10px 0 10px rgba(0, 0, 0, 0.542);
+    color: rgb(255, 255, 255);
+ text-shadow:rgba(0, 0, 0, 0.747) 0 0 10px;
+}
+
+.top-row, .bottom-row {
+    display: flex;
+    justify-content: space-between;
+   box-shadow: black 0px 0px 10px;
+    border-radius: 300px;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgba(255, 255, 255, 0.229);
+    color: black;
+}
+
+
+
+
+
+
+
+
+.font-specimen {
+  --size: 120px;
+  --line: 1;
+  --tracking: 0em;
+}
+
+/* TEXTFELD */
+.font-test {
+    font-size: var(--size);
+    line-height: var(--line);
+    letter-spacing: var(--tracking);
+    width: 100%;
+    min-height: 100px;
+    max-height: 300px;
+    padding: 24px;
+    padding-bottom: 0px;
+    padding-top: 50px;
+
+    overflow-x: auto;
+    overflow-y: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+
+    outline: none;
+    cursor: text;
+}
+
+/* SLIDER */
+.bottom-row.controls {
+  display: flex;
+  gap: 24px;
+  padding: 16px 24px;
+  border-top: 1px solid rgba(255, 255, 255, 0.229);
+}
+
+.bottom-row.controls label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+
+.bottom-row.controls input[type="range"] {
+  width: 120px;
+}
+
+
+
+
+
