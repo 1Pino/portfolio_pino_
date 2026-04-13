@@ -1,4 +1,14 @@
+@media (max-width: 600px) {
+  .container-text {
+    flex-direction: column;
+  }
 
+  .box1,
+  .box2 {
+    width: 100%;
+    margin: 0.5rem 0;
+  }
+}
   @font-face {
     font-family: 'Quadratur';
     src: url('../assets/fonts/QuadraturFINALoptischerAusgleichVF.ttf') format('truetype');
@@ -7,6 +17,7 @@
     margin: 0;
     font-family: Helvetica, sans-serif;
     height: 100vh;
+    width: 100vw;
         background:-moz-linear-gradient rgb( 0,0,0), rgb(255, 255, 255);
     overflow: hidden; /* Body scroll nicht nötig */
    color: rgb(43, 13, 13);
@@ -31,7 +42,7 @@
     font-variation-settings: 'wght'100,  'SERF'100;
     margin-left: 2vw;
     margin-top: 2vh;
-    font-size: 1em;
+    font-size: 3em;
     letter-spacing: 0em;
    
   }
@@ -82,7 +93,7 @@ height: 70vh;
     overflow-x: auto;
     overflow-y: hidden;
     flex-wrap: nowrap;
-    height: 70vh;
+    height: 60vh;
     /* Abstand unter Header */
     scroll-behavior: smooth; /* sanftes Scrollen */
   }
@@ -95,13 +106,14 @@ height: 70vh;
   .lowerbody {
     /* border-top: 2px solid rgb(43, 13, 13); */
      margin-top: 0vh;
+     height:23%;
   }
 
   .container, .container-text {
     flex: 0 0 60vw; /* Breite für Scroll */
-    height: 80%;
+    height: 100%;
     contain:content;
-    margin: 0vh 22vw;
+    margin: 0vh 1vw;
     /* background: rgb(43, 13, 13); */
     /* border: 2px solid white; */
   }
@@ -111,7 +123,7 @@ height: 70vh;
   }
    .container-text,.row, .lowerbody, .right{
     margin-right: 0vw !important ;
-    padding-right: 8vw;
+    padding-right: 10vw;
    }
 
   /* .lowerbody .container-text {
@@ -135,7 +147,7 @@ a{
     font-family: Quadratur;
     /* font-variation-settings: 'wght' 200, 'SERF'100; */
     letter-spacing:1px;
-    font-size: 1em;
+    font-size: 1.5em;
 }
 .container-text{
     display: flex;
@@ -143,7 +155,7 @@ a{
 .box1{
     color:rgb(43, 13, 13);
     height: 100%;
-    width: 45%;
+    width: 40vw;
     overflow: auto;
     margin:10px 10px 10px 10px;
         font-variation-settings: 'wght' 100, 'SERF'100;
@@ -152,7 +164,7 @@ a{
     color:rgb(43, 13, 13);
     height: auto;
     overflow: auto;
-    width: 45%;
+    width: 30vw;
     margin:10px 10px 10px 10px;
     font-variation-settings: 'wght' 100, 'SERF'0;
 }
